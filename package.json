@@ -1,0 +1,10 @@
+{
+  "name": "lesssprites",
+  "version": "1.0.0",
+  "author": "Markus Fink",
+  "devDependencies": {
+    "grunt": "~0.4.0",
+    "grunt-contrib-less": "~1",
+    "grunt-contrib-watch": "~0.6.0"
+  }
+}

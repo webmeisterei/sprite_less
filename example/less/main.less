@@ -1,0 +1,32 @@
+@import "../mixin.less";
+
+
+body {
+    background: #ccc;
+}
+
+.sprite1(@x, @y, @xoffset:0, @yoffset:0) {
+    .sprite("../sprite.png", 52px, 250px, 50px, @x, @y, @xoffset, @yoffset);
+}
+
+.sprite2(@x, @y, @xoffset:0, @yoffset:0) {
+    .sprite("../sprite_red.png", 52px, 250px, 50px, @x, @y, @xoffset, @yoffset);
+}
+
+.icon-1 {
+    .sprite1(0, 0);
+    width: 51px;
+    height: 50px;
+}
+
+.icon-2 {
+    .sprite2(0, 1);
+    width: 51px;
+    height: 50px;
+}
+
+.icon-3 {
+    .sprite1(0, 2);
+    width: 51px;
+    height: 50px;
+}
