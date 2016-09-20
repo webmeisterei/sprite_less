@@ -35,6 +35,7 @@ Import the mixin.less in your projects less file and use as in the example below
 
 #### @path
 Path to Sprite File
+(Attention: the Retina optimized Sprite should have the same filename with @2x added e.g. sprite@2x.png)
 
 #### @sprite_width
 Width of the Sprite Image (in px)
