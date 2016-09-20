@@ -1,6 +1,9 @@
 # sprite_less
 less mixin for easy use of sprites on hdpi displays
 
+### Try it yourself
+http://codepen.io/anon/pen/YGqRKK
+
 ### USAGE
 
 Usage is very easy:
@@ -57,7 +60,3 @@ x-offset (in px)
 
 #### @yoffset
 y-offset (in px)
-
-
-### Try it yourself
-http://codepen.io/anon/pen/YGqRKK
